@@ -13384,6 +13384,15 @@ setEventReg__11dSv_event_cFUsUc = 0x8005cb58;
 
 arrowhithook = 0x800d6384;
 
+original_entry = 0x80003140;
+currentruppes = 0x803C4C0C;
+rupeesvariation = 0x803ca768;
+event_manager = 0x803C522C;
+
+effect_manager = 0x803ca6cc;
+collision_manager = 0x803c72ac;
+mass_manager = 0x803c9b00;
+
 SECTIONS {
 	. = 0x803FD000;
 __begin = .;
